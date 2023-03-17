@@ -10,14 +10,20 @@ Note: assume the script is executed with an argument
 
 ### Solution
 
-```
-/usr/bin/env bash
+```bash 
+#!/bin/bash
 
-arg_value=${1:-default}
-
-if [ $arg_value = "pizza" ]; then
-    echo "with pineapple?"
-else
-    echo "I want pizza!"
+if [ $1 == "pizza" ]; then
+        echo "with pineapple?"
+elif [ $1 != "pizza" ]; then
+        echo "I want pizza!"
 fi
+```
+
+### Test
+```bash
+user@users-MacBook-Pro my_sandbox % bash pizza.sh cheese
+I want pizza!
+user@users-MacBook-Pro my_sandbox % bash pizza.sh pizza 
+with pineapple?
 ```
