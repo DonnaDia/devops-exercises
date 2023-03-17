@@ -4,9 +4,9 @@
 
 |Name|Topic|Objective & Instructions|Solution|Comments|
 |--------|--------|------|----|----|
-|Hello World|Variables|[Exercise](hello_world.md)|[Solution](solutions/hello_world.md) | Basic
-|Basic date|Variables|[Exercise](basic_date.md)|[Solution](solutions/basic_date.md) | Basic
-|Great Day|Variables|[Exercise](great_day.md)|[Solution](solutions/great_day.md) | Basic
+|✅ Hello World|Variables|[Exercise](hello_world.md)|[Solution](solutions/hello_world.md) | Basic
+|✅ Basic date|Variables|[Exercise](basic_date.md)|[Solution](solutions/basic_date.md) | Basic
+|✅ Great Day|Variables|[Exercise](great_day.md)|[Solution](solutions/great_day.md) | Basic
 |Factors|Arithmetic|[Exercise](factors.md)|[Solution](solutions/factors.md) | Basic
 |Argument Check|Conditionals|[Exercise](argument_check.md)|[Solution](solutions/argument_check.md) | Basic
 |Files Size|For Loops|[Exercise](files_size.md)|[Solution](solutions/files_size.md) | Basic
